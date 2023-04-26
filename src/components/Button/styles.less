@@ -1,0 +1,15 @@
+@import '../../styles/colors.less';
+
+.button {
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: 700;
+
+    &:disabled {
+        color: @color-grey;
+        background-color: @color-white;
+        border-color: @color-grey;
+        border: 0.1rem solid @color-grey;
+    }
+}
